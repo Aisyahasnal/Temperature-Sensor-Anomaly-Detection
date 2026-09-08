@@ -7,7 +7,7 @@ Sistem identifikasi anomali pada sensor suhu *Automatic Weather Station* (AWS) B
 BiLSTM (Bidirectional Long Short-Term Memory) adalah pengembangan dari LSTM yang memproses data deret waktu dari dua arah (maju dan mundur), sehingga model dapat menangkap pola dari konteks masa lalu maupun masa depan sekaligus. Dalam penelitian ini, BiLSTM dilatih menggunakan data suhu historis masing-masing sensor untuk memprediksi nilai suhu berikutnya.
 
 ### DEGWO
-DEGWO (Differential Evolution – Grey Wolf Optimizer) adalah metode optimasi metaheuristik hybrid yang menggabungkan Differential Evolution dan Grey Wolf Optimizer untuk mencari kombinasi hyperparameter BiLSTM (jumlah unit, dropout rate, learning rate, batch size) yang optimal, guna meningkatkan akurasi prediksi model.
+DEGWO (Differential Evolution – Grey Wolf Optimizer) adalah metode optimasi metaheuristik hybrid yang menggabungkan Differential Evolution dan Grey Wolf Optimizer untuk mencari kombinasi hyperparameter BiLSTM (jumlah unit, dropout rate, learning rate, batch size) yang optimal dengan tujuan untuk mendapatkan performa model yang optimal.
 
 ### Alur Deteksi Dua Lapis
 
