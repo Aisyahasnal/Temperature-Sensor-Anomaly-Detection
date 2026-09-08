@@ -26,8 +26,8 @@ Status = Normal,   jika |z| ≤ 2
 
 ## Hasil
 
-### Distribusi Residual & Proporsi Status Kondisi Sensor
-![Distribusi Residual HMP155A](images/distribusi_residual_hmp155a.png)
-
 ### Aktual vs Prediksi
 ![Aktual vs Prediksi HMP155A](images/aktual_vs_prediksi_hmp155a.png)
+
+### Distribusi Residual & Proporsi Status Kondisi Sensor
+![Distribusi Residual HMP155A](images/distribusi_residual_hmp155a.png)
